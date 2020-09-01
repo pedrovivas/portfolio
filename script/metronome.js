@@ -19,7 +19,7 @@ let userSignatureBeat;
 let userSignatureBar;
 let singleBeat;
 let interval;
-let increaseDecreaseActive = true;
+let increaseDecreaseActive = false;
 let increaseDecreaseBpm;
 
 const getBpm = () => {
