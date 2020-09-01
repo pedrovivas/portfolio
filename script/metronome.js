@@ -149,7 +149,8 @@ const setMetronome = () => {
     metronomeNumber.textContent = beatCounter;
   }
 
-  sound.src = beatCounter === 1 ? "media/sounds/BeatUp.mp3" : "media/sounds/BeatDown.mp3";
+  sound.src =
+    beatCounter === 1 ? "media/sounds/BeatUp.mp3" : "media/sounds/BeatDown.mp3";
   sound.currentTime = 0;
   sound.play();
 
