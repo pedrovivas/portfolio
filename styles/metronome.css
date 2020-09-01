@@ -1,0 +1,61 @@
+#visual-mode:hover {
+  cursor: pointer;
+}
+.signature-container, .metronome-style-container {
+  font-size: 1.1rem;
+}
+.bpm-container {
+  font-size: 1.4rem;
+}
+#metronome {
+  width: 310px;
+  height: 16.5rem;
+  background-color: #f8f9fa;
+  border-radius: 1rem;
+}
+#metronome-number {
+  font-size: 8rem;
+  line-height: 2;
+}
+.green-beat {
+  background-color: green;
+}
+.red-beat {
+  background-color: red;
+}
+.change-bpm-btn {
+  width: 4.5rem;
+  height: 4.5rem;
+  font-size: 1.5rem;
+}
+.start-stop-btn {
+  border-radius: 0;
+  width: 4rem;
+  height: 4rem;
+  font-size: 1.1rem;
+}
+#volume {
+  width: 17.6px;
+  font-size: 1.1rem;
+}
+#volume:hover {
+  cursor: pointer;
+}
+#bpm {
+  width: 76px;
+  border: none;
+  background-color: transparent;
+  font-size: 2rem;
+}
+/* Chrome, Safari, Edge, Opera */
+#bpm::-webkit-outer-spin-button,
+#bpm::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  /*opacity: 1;*/
+}
+
+/* Firefox */
+#bpm {
+  -moz-appearance: textfield;
+}

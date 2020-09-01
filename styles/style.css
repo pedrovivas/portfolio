@@ -1,0 +1,82 @@
+:root {
+  --text-blue: #416b98;
+  --text-orange: #b34500;
+}
+*,
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 0;
+}
+nav a,
+h1,
+.text-blue {
+  color: var(--text-blue) !important;
+}
+.text-orange {
+  color: var(--text-orange);
+}
+.bg-blue {
+  background-color: var(--text-blue) !important;
+}
+.bg-orange {
+  background-color: var(--text-orange);
+}
+#about img {
+  width: 216px;
+}
+.card {
+  width: 18rem;
+  transition: all 0.5s ease-in-out;
+}
+.card:hover {
+  box-shadow: 0px 0px 8px 2px #888888;
+  text-decoration: none;
+}
+.info-dropdown {
+  width: 18rem;
+}
+.info-link {
+  cursor: pointer;
+}
+.info-text {
+  width: 18rem !important;
+  display: none;
+}
+form {
+  max-width: 500px;
+  width: 90%;
+  border-radius: 10px;
+}
+.form-control:focus {
+  border-color: var(--text-blue);
+  box-shadow: 0 0 0 0.1rem var(--text-blue);
+}
+#icons-container {
+  width: 10rem;
+}
+.icons {
+  font-size: 2rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.1rem solid transparent;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+.icons:hover {
+  border-color: white;
+}
+form button:hover {
+  background-color: #4b7cb0 !important;
+}
+.info-link span:hover,
+nav a:hover {
+  color: #4b7cb0 !important;
+}
